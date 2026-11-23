@@ -7,4 +7,6 @@ int main(int argc, char *argv[]) {
     printf("Usage error: <name>");
     return 1;
   }
+  char *name = argv[1];
+  long count = strtol(argv[2], null, 10);
 }
